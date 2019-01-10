@@ -68,6 +68,10 @@ class MainActivity : SimpleActivity(), RefreshRecyclerViewListener {
         appLaunched(BuildConfig.APPLICATION_ID)
         Log.d("dhdfksj","dshfjsa")
         checkWhatsNewDialog()
+        checkWhatsNewDialog()
+        checkWhatsNewDialog()
+        checkWhatsNewDialog()
+        checkWhatsNewDialog()
         calendar_fab.beVisibleIf(config.storedView != YEARLY_VIEW)
         calendar_fab.setOnClickListener {
             launchNewEventIntent(currentFragments.last().getNewEventDayCode())
