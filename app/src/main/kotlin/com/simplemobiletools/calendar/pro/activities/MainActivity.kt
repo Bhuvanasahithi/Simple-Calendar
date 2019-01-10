@@ -66,11 +66,6 @@ class MainActivity : SimpleActivity(), RefreshRecyclerViewListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         appLaunched(BuildConfig.APPLICATION_ID)
-        Log.d("dhdfksj","dshfjsa")
-        checkWhatsNewDialog()
-        checkWhatsNewDialog()
-        checkWhatsNewDialog()
-        checkWhatsNewDialog()
         checkWhatsNewDialog()
         calendar_fab.beVisibleIf(config.storedView != YEARLY_VIEW)
         calendar_fab.setOnClickListener {
